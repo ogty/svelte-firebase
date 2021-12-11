@@ -1,4 +1,4 @@
-<!-- <script lang="ts">
+<script lang="ts">
     import { Router, Link, Route } from "svelte-routing";
 	import Home from "./pages/Home.svelte";
     import { initializeApp }  from 'firebase/app';
@@ -13,12 +13,8 @@
 	};
 	
 	initializeApp(firebaseConfig);
-</script> -->
-
-<script lang="ts">
-	import { Router, Link, Route } from "svelte-routing";
-	import Home from "./pages/Home.svelte";
 </script>
+
 <Router>
 	<Link to=""></Link>
 	<Route path="/" component={Home} />
