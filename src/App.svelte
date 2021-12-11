@@ -4,8 +4,8 @@
     import { initializeApp }  from 'firebase/app';
 
 	const firebaseConfig = {
-	  apiKey: "AIzaSyAHITlgmcGGQ6jADHvLFzWdTBITKV1FiEI",
-	  authDomain: "svelte-firebase.vercel.app",
+		apiKey: "AIzaSyAHITlgmcGGQ6jADHvLFzWdTBITKV1FiEI",
+	  authDomain: "svelte-fire-tail-temp.firebaseapp.com",
 	  projectId: "svelte-fire-tail-temp",
 	  storageBucket: "svelte-fire-tail-temp.appspot.com",
 	  messagingSenderId: "117783386320",
