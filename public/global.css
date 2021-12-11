@@ -13,16 +13,7 @@ body {
 }
 
 a {
-	color: rgb(0,100,200);
 	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:visited {
-	color: rgb(0,80,160);
 }
 
 label {
@@ -40,24 +31,53 @@ input, button, select, textarea {
 	border-radius: 2px;
 }
 
-input:disabled {
-	color: #ccc;
+.popup_overlay {
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	background: #37beb03d;
+	opacity: 0;
+	transition: opacity 0.5s, transform 0s 0.5s;
+	transform: scale(0);
+}
+.popup_trigger {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.popup_content {
+	position: relative;
+	align-self: center;
+	width: 75%;
+	box-sizing: border-box;
+	background: #fff;
+	line-height: 1.4em;
+	transition: 0.5s;
+	border-radius: 12px;
+	box-shadow: 0 0 5px rgba(94, 94, 94, 0.7);
 }
 
-button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
+.close_btn {
+	position: absolute;
+	top: 14px;
+	right: 16px;
+	font-size: 30px;
+	cursor: pointer;
+	color: black;
 }
-
-button:disabled {
-	color: #999;
+.popup_wrap input:checked ~ .popup_overlay {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 0.5s;
 }
-
-button:not(:disabled):active {
-	background-color: #ddd;
-}
-
-button:focus {
-	border-color: #666;
+#google_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

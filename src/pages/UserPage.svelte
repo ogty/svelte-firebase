@@ -1,7 +1,18 @@
 <script lang="ts">
     import DeleteUser from './DelteUser.svelte'
-    export let logOut;
+    import { getAuth, signOut } from 'firebase/auth'
+
     export let userIconURL;
+
+    const auth = getAuth()
+    async function logOut() {
+        try {
+            await signOut(auth)
+            location.reload()
+        } catch (e) {
+            console.log(e)
+        }
+    }
 </script>
 
 

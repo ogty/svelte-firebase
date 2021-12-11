@@ -14,4 +14,10 @@
 </script>
 
 
-<button on:click={deleteCall}>退会する</button>
+<div>
+    !!!!!!!!!!!!!!!!!!!!!!<br>::::
+    <a href="/" class="font-bold" on:click={deleteCall}>
+        <span class="text-red-900">退会する</span>
+    </a>::::<br>
+    !!!!!!!!!!!!!!!!!!!!!!
+</div>
