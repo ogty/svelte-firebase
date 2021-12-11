@@ -12,7 +12,25 @@
 
 	<script defer src='/build/bundle.js'></script>
 </head>
-
+<script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+  
+	// Your web app's Firebase configuration
+	const firebaseConfig = {
+	  apiKey: "AIzaSyAHITlgmcGGQ6jADHvLFzWdTBITKV1FiEI",
+	  authDomain: "svelte-fire-tail-temp.firebaseapp.com",
+	  projectId: "svelte-fire-tail-temp",
+	  storageBucket: "svelte-fire-tail-temp.appspot.com",
+	  messagingSenderId: "117783386320",
+	  appId: "1:117783386320:web:fdec9fe8372b4c7e9ee6d5"
+	};
+  
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+  </script>
 <body>
 </body>
 </html>
