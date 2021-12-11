@@ -5,7 +5,7 @@
 
 	const firebaseConfig = {
 	  apiKey: "AIzaSyAHITlgmcGGQ6jADHvLFzWdTBITKV1FiEI",
-	  authDomain: "svelte-fire-tail-temp.firebaseapp.com",
+	  authDomain: "svelte-fire-tail-temp.web.app",
 	  projectId: "svelte-fire-tail-temp",
 	  storageBucket: "svelte-fire-tail-temp.appspot.com",
 	  messagingSenderId: "117783386320",
