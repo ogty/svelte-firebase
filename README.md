@@ -79,7 +79,7 @@ export default {
 3. `App.svelte`内の`firebaseConfig`に貼り付け
 4. AuthenticationからGoogleプロバイダーを追加
 
-##### TODO: どうやら`public/index.htmlに配置するらしい...でも適応されない...`
+##### TODO: どうやら`public/index.html`に配置するらしい...でも適応されない...
 
 ***
 
