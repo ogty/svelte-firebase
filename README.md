@@ -7,6 +7,7 @@
  - [Sveltekit](https://kit.svelte.dev/)
  - [Firebase](https://firebase.google.com/?hl=ja)
  - [Tailwindcss](https://tailwindcss.com/)
+ - [Vercel](https://vercel.com/)
 
 ***
 
@@ -115,7 +116,15 @@ export default {
 
 ***
 
-### デプロイ
+### Vercelデプロイ
+
+[Deploy Svelte with Vercel](https://vercel.com/guides/deploying-svelte-with-vercel)  
+
+Firebase → プロジェクト → Authentication → Sign-in method → 承認済みドメインにVercelのドメインを追加してください。
+
+***
+
+### Firebaseデプロイ
 
 ```bash
 $ firebase init hosting
