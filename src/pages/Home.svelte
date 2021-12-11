@@ -24,8 +24,8 @@
     async function loginWithGoogle() {
         try {
             const provider = new firebaseAuth.GoogleAuthProvider()
-            // await firebaseAuth.signInWithPopup(auth, provider);
-            await firebaseAuth.signInWithRedirect(auth, provider)
+            await firebaseAuth.signInWithPopup(auth, provider)
+            // await firebaseAuth.signInWithRedirect(auth, provider)
             console.log("Success!!")
         } catch (e) {
             console.log(e)

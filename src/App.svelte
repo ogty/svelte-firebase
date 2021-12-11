@@ -17,10 +17,8 @@
 </script>
 
 <Router>
-    <header>
-        <Link to=""></Link>
-        <Route path="/" component={Home} />
-    </header>
+	<Link to=""></Link>
+	<Route path="/" component={Home} />
 </Router>
 
 <style global lang="postcss">
