@@ -75,11 +75,14 @@ export default {
 3. `App.svelte`内の`firebaseConfig`に貼り付け
 4. AuthenticationからGoogleプロバイダーを追加
 
+##### TODO: どうやら`public/index.htmlに配置するらしい...でも適応されない...`
+
 ***
 
 ### Routing設定
 
 **`App.svelte`**
+
 ```svelte
 <script>
     import { Router, Link, Route } from "svelte-routing";
@@ -105,4 +108,22 @@ export default {
     @tailwind components;
     @tailwind utilities;
 </style>
+```
+
+***
+
+### デプロイ
+
+```bash
+$ firebase init hosting
+ # setting
+$ firebase deploy --only hosting
+```
+
+##### Hostingの選択にはスペースキーを使います。
+
+デプロイ取り消し
+
+```bash
+$ firebase hosting:disable
 ```
