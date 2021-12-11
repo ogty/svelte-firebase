@@ -1,4 +1,5 @@
 <script lang="ts">
+    import DeleteUser from './DelteUser.svelte'
     export let logOut;
     export let userIconURL;
 </script>
@@ -19,6 +20,7 @@
     <span class="text-slate-900">Log out</span>
 </a>
 
+<DeleteUser />
 <style>
     img {
         width: 35%;

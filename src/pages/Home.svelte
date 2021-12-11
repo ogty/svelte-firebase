@@ -2,6 +2,9 @@
     import * as firebaseAuth from 'firebase/auth'
     import UserPage from './UserPage.svelte'
     import About from './About.svelte'
+    import Signup from './Signup.svelte'
+    import LogIn from './LogIn.svelte'
+
 
     const auth = firebaseAuth.getAuth()
     let isUser = false
@@ -16,8 +19,6 @@
             console.log(photoURL)
             userIconURL = photoURL
             isUser = true
-        } else {
-            console.log("Not log inned")
         }
     });
 
@@ -26,7 +27,6 @@
             const provider = new firebaseAuth.GoogleAuthProvider()
             await firebaseAuth.signInWithPopup(auth, provider)
             // await firebaseAuth.signInWithRedirect(auth, provider)
-            console.log("Success!!")
         } catch (e) {
             console.log(e)
         }
@@ -58,14 +58,21 @@
                 <a href="/" class="ml-4 py-2 px-3 font-bold">
                     <span class="text-slate-900">Pricing</span>
                 </a>
-                <a href="#" class="ml-4 py-2 px-3 font-bold" on:click={loginWithGoogle}>
-                    <span class="text-slate-900">Log in</span>
+                <a href="#" class="ml-4 py-2 px-3 font-bold">
+                    <span class="text-slate-900">
+                        <label for="trigger2">Log in</label>
+                    </span>
                 </a>
+                
                 <a href="/" class="no-underline transform motion-reduce:transform-none hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300 bg-zinc-900 font-bold ml-4 py-2 px-3 rounded-lg">
-                    <span class="text-white">Sign up</span>
+                    <span class="text-white">
+                        <label for="trigger">Sign up</label>
+                    </span>
                 </a>
             </div>
         </div>
     </header>
     <About />
+    <LogIn {loginWithGoogle} />
+    <Signup {loginWithGoogle} />
 {/if}
