@@ -16,7 +16,7 @@
 </script>
 
 
-<div class="flex justify-between bg-zinc-800 -m-2 p-2">
+<div class="flex justify-between bg-zinc-800 p-2">
     <div class="order-last flex flex-row">
         <img class="rounded-full" src="{userIconURL}" alt="user-img">
         <svg width="8" height="6" viewBox="0 0 8 6" class="text-white h-10" style="margin-left: 10px;"><path d="M4 6L0.535898 0L7.4641 0L4 6Z" fill="currentColor"></path></svg>
