@@ -1,7 +1,7 @@
 # Svelte & Firebase & Tailwindcss
 
 
-[Web Site](https://svelte-fire-tail-temp.firebaseapp.com)
+[Web Site](https://svelte-firebase.vercel.app)
 
  - [Svelte](https://svelte.dev/)
  - [Sveltekit](https://kit.svelte.dev/)
