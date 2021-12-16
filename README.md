@@ -1,7 +1,7 @@
 # Svelte & Firebase & Tailwindcss
 
 
-[Web Site](https://svelte-firebase.vercel.app)
+[Web Site](https://test-sepia-mu.vercel.app)
 
  - [Svelte](https://svelte.dev/)
  - [Sveltekit](https://kit.svelte.dev/)
