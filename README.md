@@ -1,7 +1,6 @@
 # Svelte & Firebase & Tailwindcss
 
-
-[Web Site](https://test-sepia-mu.vercel.app)
+[Web Site](https://svelte-firebase-k0kz0zs3x-ogty.vercel.app/)
 
  - [Svelte](https://svelte.dev/)
  - [Sveltekit](https://kit.svelte.dev/)
@@ -26,6 +25,7 @@ $ npx tailwindcss init
 ***
 
 ### Tailwindcss設定
+
 **`tailwind.config.js`**
 
 ```js
