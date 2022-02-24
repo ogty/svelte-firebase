@@ -1,6 +1,6 @@
 # Svelte & Firebase & Tailwindcss
 
-[Web Site](https://svelte-firebase-k0kz0zs3x-ogty.vercel.app/)
+[Website](https://svelte-firebase-k0kz0zs3x-ogty.vercel.app/)
 
  - [Svelte](https://svelte.dev/)
  - [Sveltekit](https://kit.svelte.dev/)
@@ -8,7 +8,7 @@
  - [Tailwindcss](https://tailwindcss.com/)
  - [Vercel](https://vercel.com/)
 
-***
+---
 
 ### Svelte設定
 
@@ -22,7 +22,7 @@ $ npm i -D tailwindcss@latest postcss@latest autoprefixer@latest
 $ npx tailwindcss init
 ```
 
-***
+---
 
 ### Tailwindcss設定
 
